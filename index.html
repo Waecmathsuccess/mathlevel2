@@ -3,19 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Counter</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Basic Algebra: Algebraic Expressions and Simple Equations</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
 </head>
 <body>
-    <div class="counter-container">
-        <h1>Counter</h1>
-        <p id="counter">0</p>
-        <div class="buttons">
-            <button id="increment">Increment</button>
-            <button id="decrement">Decrement</button>
-            <button id="reset">Reset</button>
-        </div>
-    </div>
-    <script src="script.js"></script>
+
+    <!-- Video Lecture Section -->
+    <section id="lecture">
+        <h1>Video Lecture: Algebraic Expressions and Simple Equations</h1>
+        <iframe width="400" height="315" src="https://www.youtube.com/embed/kWOTmyoaWJg?si=J13DnCH4o4wdmKcw" 
+                title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz">
+        <h2>Quiz: Algebraic Expressions and Simple Equations</h2>
+        <form id="quizForm">
+            <div class="quiz-question">
+                <p>1. Simplify the expression: 3x + 5x.</p>
+                <input type="radio" name="q1" value="A"> A. 8x<br>
+                <input type="radio" name="q1" value="B"> B. 15x<br>
+                <input type="radio" name="q1" value="C"> C. 3x + 5<br>
+                <span class="feedback" id="feedback1"></span>
+            </div>
+
+            <div class="quiz-question">
+                <p>2. Solve the equation: 2x - 7 = 9.</p>
+                <input type="radio" name="q2" value="A"> A. x = 2<br>
+                <input type="radio" name="q2" value="B"> B. x = 8<br>
+                <input type="radio" name="q2" value="C"> C. x = -1<br>
+                <span class="feedback" id="feedback2"></span>
+            </div>
+
+            <div class="quiz-question">
+                <p>3. Expand the expression: (x + 4)(x - 2).</p>
+                <input type="radio" name="q3" value="A"> A. x² + 2x - 8<br>
+                <input type="radio" name="q3" value="B"> B. x² + 4x - 2x<br>
+                <input type="radio" name="q3" value="C"> C. x² + 2x + 8<br>
+                <span class="feedback" id="feedback3"></span>
+            </div>
+
+            <div class="quiz-question">
+                <p>4. Factor the expression: x² - 9.</p>
+                <input type="radio" name="q4" value="A"> A. (x - 9)(x + 9)<br>
+                <input type="radio" name="q4" value="B"> B. (x - 3)(x + 3)<br>
+                <input type="radio" name="q4" value="C"> C. x(x - 9)<br>
+                <span class="feedback" id="feedback4"></span>
+            </div>
+
+            <div class="quiz-question">
+                <p>5. Solve the equation: 3x + 6 = 15.</p>
+                <input type="radio" name="q5" value="A"> A. x = 3<br>
+                <input type="radio" name="q5" value="B"> B. x = 9<br>
+                <input type="radio" name="q5" value="C"> C. x = 5<br>
+                <span class="feedback" id="feedback5"></span>
+            </div>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </section>
+
+    <!-- Assignment Section -->
+    <section id="assignment">
+        <h2>Assignment</h2>
+        <p><strong>Assignment Question:</strong></p>
+        <p>Write a Java program that simplifies algebraic expressions and solves simple linear equations. Demonstrate the program with at least 3 different algebraic expressions.</p>
+        <p>Please submit your assignment by sending an email to: <a href="mailto:mathbasics101@gmail.com">mathbasics101@gmail.com</a></p>
+        <p>If the link does not work, send your assignment manually to: mathbasics101@gmail.com</p>
+        <textarea id="assignmentInput" rows="6" placeholder="Write your assignment here..."></textarea>
+        <button id="submitAssignment" onclick="submitAssignment()">Submit Assignment</button>
+    </section>
+
+    <!-- Donation Section -->
+    <section id="donation">
+        <h2>PLEASE DONATE</h2>
+        <p>Account Number: 2032202001590</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/GTBank_logo.svg/768px-GTBank_logo.svg.png" alt="GTBank Logo" width="150">
+        <p>Wave Mobile: 3709558</p>
+        <img src="https://s.rfi.fr/media/display/ed44f02a-c239-11ec-b0fc-005056bf8594/w:1280/p:16x9/wave-senegal-mobile-money.png" alt="Wave Mobile Logo" width="150">
+    </section>
+
+    <script src="script.js"></script> <!-- Link to external JS file -->
 </body>
 </html>
